@@ -1,6 +1,7 @@
-package classes;
+package classes.director;
 
 import builders.PizzaConcreteBuilder;
+import classes.Pizza;
 import classes.enums.Cheese;
 import classes.enums.Onion;
 
