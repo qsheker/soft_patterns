@@ -1,8 +1,8 @@
-package classes;
+package Builder.classes;
 
-import classes.enums.Cheese;
-import classes.enums.Onion;
-import classes.enums.Pepper;
+import Builder.classes.enums.Cheese;
+import Builder.classes.enums.Onion;
+import Builder.classes.enums.Pepper;
 
 import java.util.List;
 

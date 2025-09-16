@@ -1,4 +1,4 @@
-package classes.enums;
+package Builder.classes.enums;
 
 public enum Cheese {
     SHREDDED,

@@ -1,9 +1,9 @@
-package builders;
+package Builder.builders;
 
-import classes.Pizza;
-import classes.enums.Cheese;
-import classes.enums.Onion;
-import classes.enums.Pepper;
+import Builder.classes.Pizza;
+import Builder.classes.enums.Cheese;
+import Builder.classes.enums.Onion;
+import Builder.classes.enums.Pepper;
 
 import java.util.List;
 
