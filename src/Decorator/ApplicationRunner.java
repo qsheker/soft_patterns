@@ -18,13 +18,15 @@ public class ApplicationRunner {
 
         User user = new User(1L, "aldik", "aldik@example.com", "pass");
 
-        userController.save(user);
+        while( true){
+            userController.save(user);
 
-        User entity = userController.findUserById(1L);
+            userController.findUserById(1L);
 
-        List<User> users = userController.findAll();
+            userController.findAll();
 
-        userController.deleteUserById(1L);
+            userController.deleteUserById(1L);
+        }
 
     }
 }
